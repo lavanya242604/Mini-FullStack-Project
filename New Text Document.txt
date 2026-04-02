@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HOME</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+        /* Header Section */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: darkblue;
+            color: white;
+            padding: 10px;
+        }
+        .round-img {
+            height: 80px;  
+            width: 80px;   
+            border-radius: 50%;  
+            object-fit: cover;  
+            border: 2px solid white;  
+        }
+        /* Language List */
+        .language-container {
+            padding: 20px;
+        }
+        .language-list {
+            list-style-type: disc;  /* Ensures bullets are shown */
+            padding-left: 40px;
+            width: 50%;
+        }
+        .language-list li {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+            font-size: 18px;
+            width: 100%;
+        }
+        .language-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%; 
+        }
+        button {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 8px 12px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-left: 20px;
+            min-width: 80px;
+        }
+        /* Contact and Feedback Section */
+        .contact-container {
+            display: flex;
+            justify-content: space-between;
+            background-color: #f1f1f1;
+            padding: 20px;
+        }
+        .contact, .feedback {
+            width: 48%;
+        }
+        .contact h2 {
+            margin-bottom: 10px;
+        }
+        .contact-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+        .contact-item label {
+            width: 120px;
+            text-align: right;
+            margin-right: 10px;
+            font-weight: bold;
+        }
+        .contact-item input {
+            flex: 1;
+            padding: 5px;
+        }
+        .feedback textarea {
+            width: 100%;
+            height: 100px;
+            padding: 5px;
+        }
+        /* Submit Button */
+        .submit-container {
+            text-align: center;
+            padding: 20px;
+        }
+        .submit-button {
+            background-color: darkblue;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .submit-button:hover {
+            background-color: navy;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <div class="header">
+        <img src="C:\Users\MANITEJA\OneDrive\Desktop\chinnu.jpeg" alt="Picture" class="round-img">
+        <h1>Dive into Programming Languages</h1>
+        <img src="C:\Users\MANITEJA\OneDrive\Pictures\Screenshots\vignan logo.png" alt="Vignan Logo" class="round-img">
+    </div>
+
+    <!-- Programming Languages List -->
+    <div class="language-container">
+        <h2>Popular Programming Languages</h2>
+        <ul class="language-list">
+        <li>Python <button>Learn</button></li>
+        <li>Java <button>Learn</button></li>
+        <li>C++ <button>Learn</button></li>
+        <li>JavaScript <button>Learn</button></li>
+        <li>HTML&CSS<button>Learn</button></li>
+    </ul>
+    </div>
+
+    <!-- Contact and Feedback Section -->
+    <div class="contact-container">
+        <!-- Contact Details -->
+        <div class="contact">
+            <h2>Contact Details</h2>
+            <div class="contact-item">
+                <label>Name:</label>
+                <input type="text">
+            </div>
+            <div class="contact-item">
+                <label>Email:</label>
+                <input type="email">
+            </div>
+            <div class="contact-item">
+                <label>Contact No:</label>
+                <input type="text">
+            </div>
+        </div>
+
+        <!-- Feedback Section -->
+        <div class="feedback">
+            <h2>Feedback</h2>
+            <textarea placeholder="Enter your feedback"></textarea>
+        </div>
+    </div>
+
+    <!-- Submit Button -->
+    <div class="submit-container">
+        <button class="submit-button" onclick="submitForm()">Submit</button>
+    </div>
+
+    <script>
+        function submitForm() {
+            alert("Submitted Successfully");
+        }
+    </script>
+
+</body>
+</html>
+
+
+
+
+
+<---python.html--->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Python Programming</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 30px;
+            background-color: #f9f9f9;
+        }
+        h1 {
+            color: darkblue;
+        }
+        ul {
+            margin-top: 15px;
+            line-height: 1.8;
+        }
+        a {
+            color: darkblue;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .back {
+            margin-top: 30px;
+            display: inline-block;
+            padding: 8px 15px;
+            background-color: darkblue;
+            color: white;
+            border-radius: 5px;
+        }
+        .back:hover {
+            background-color: navy;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Python Programming Language</h1>
+
+    <p>Python is a powerful, high-level, easy-to-learn programming language used in web development, data science, automation, AI, and more.</p>
+
+    <h3>Why Learn Python?</h3>
+    <ul>
+        <li>Easy syntax, beginner-friendly</li>
+        <li>Extensive libraries and frameworks</li>
+        <li>Used in machine learning, data analysis, web apps, and scripting</li>
+    </ul>
+
+    <h3>Useful Resources:</h3>
+    <ul>
+        <li><a href="https://www.python.org" target="_blank">Official Python Website</a></li>
+        <li><a href="https://docs.python.org/3/" target="_blank">Python Documentation</a></li>
+        <li><a href="https://www.w3schools.com/python/" target="_blank">W3Schools Python Tutorial</a></li>
+        <li><a href="https://realpython.com/" target="_blank">Real Python</a></li>
+    </ul>
+     
+     <a class="test" href="quiz.html">Take the Quiz</a>
+
+    <a class="back" href="webpage.html">← Back to Home</a>
+
+</body>
+</html>
+
+
+
+<----pyQuiz---->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Python Quiz</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 30px;
+            background-color: #f9f9f9;
+        }
+        h1 {
+            color: darkblue;
+        }
+        .question {
+            margin-top: 20px;
+        }
+        .submit-button {
+            margin-top: 20px;
+            background-color: darkblue;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+        }
+        .submit-button:hover {
+            background-color: navy;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Python Quiz</h1>
+
+    <div class="question">
+        <p>1. What is the correct syntax to output "Hello, World!" in Python?</p>
+        <ul>
+            <li><input type="radio" name="q1" value="a"> print("Hello, World!")</li>
+            <li><input type="radio" name="q1" value="b"> echo("Hello, World!")</li>
+            <li><input type="radio" name="q1" value="c"> printf("Hello, World!")</li>
+            <li><input type="radio" name="q1" value="d"> write("Hello, World!")</li>
+        </ul>
+    </div>
+
+    <div class="question">
+        <p>2. Which function is used to get the type of an object in Python?</p>
+        <ul>
+            <li><input type="radio" name="q2" value="a"> type()</li>
+            <li><input type="radio" name="q2" value="b"> isinstance()</li>
+            <li><input type="radio" name="q2" value="c"> isinstanceof()</li>
+            <li><input type="radio" name="q2" value="d"> objecttype()</li>
+        </ul>
+    </div>
+
+    <button class="submit-button">Submit Quiz</button>
+
+</body>
+</html>
+
+
+
+Python is a powerful, high-level, easy-to-learn programming language used in web development, data science, automation, AI, and more.
+
+Python was conceived in the late 1980s by Guido van Rossum at Centrum Wiskunde & Informatica (CWI) in the Netherlands as a successor to the ABC programming language, which was inspired by SETL,capable of exception handling and interfacing with the Amoeba operating system.Its implementation began in December 1989. Van Rossum shouldered sole responsibility for the project, as the lead developer, until 12 July 2018, when he announced his "permanent vacation" from his responsibilities as Python's "benevolent dictator for life" (BDFL), a title the Python community bestowed upon him to reflect his long-term commitment as the project's chief decision-maker (he has since come out of retirement and is self-titled "BDFL-emeritus"). In January 2019, active Python core developers elected a five-member Steering Council to lead the project.
+
+The name Python is said to come from the British comedy series Monty Python's Flying Circus.
+
+Python 2.0 was released on 16 October 2000, with many major new features such as list comprehensions, cycle-detecting garbage collection, reference counting, and Unicode support.<br>
+
+
+
+
+
+  <div class="footer">
+    <!-- Creator Details -->
+    <div class="creator-info">
+      <p><strong>Created by:</strong> Rekha</p>
+      <p><strong>Phone:</strong> 7093137625</p>
+      <p><strong>Email:</strong> kotcherlarekha44@gmail.com</p>
+    </div>
+
+    <!-- Feedback Box -->
+    <div class="feedback-box">
+      <label for="feedback"><strong>Your Feedback:</strong></label>
+      <textarea id="feedback" placeholder="Write your thoughts..."></textarea>
+      <button>Submit</button>
+    </div>
+  </div>
+
+
+
+
+
+<div class="contact-container">
+        <!-- Contact Details -->
+        <div class="contact">
+            <h2>Contact Details</h2>
+            <div class="contact-item">
+                <label>Name:</label>
+                <input type="text">
+            </div>
+            <div class="contact-item">
+                <label>Email:</label>
+                <input type="email">
+            </div>
+            <div class="contact-item">
+                <label>Contact No:</label>
+                <input type="telephone">
+            </div>
+        </div>
+
+
+

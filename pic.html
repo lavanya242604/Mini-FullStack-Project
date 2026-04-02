@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HOME</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+        /* Header Section */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color:darkblue;
+            color: white;
+            padding: 10px;
+        }
+        .round-img {
+            height: 80px;  
+            width: 80px;   
+            border-radius: 50%;  
+            object-fit: cover;  
+            border: 2px solid white;  
+        }
+        /* Language List */
+        .language-list {
+            list-style: none;
+            padding: 20px;
+        }
+        .language-list li {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+        button {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 8px 12px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        
+         /* Contact and Feedback Section */
+        .contact-container {
+            display: flex;
+            justify-content: space-between;
+            background-color: #f1f1f1;
+            padding: 20px;
+        }
+        .contact, .feedback {
+            width: 48%;
+        }
+        .contact h2 {
+            margin-bottom: 10px;
+        }
+        .contact-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+        .contact-item label {
+            width: 120px;
+            text-align: right;
+            margin-right: 10px;
+            font-weight: bold;
+        }
+        .contact-item input {
+            flex: 1;
+            padding: 5px;
+        }
+        .feedback textarea {
+            width: 100%;
+            height: 100px;
+            padding: 5px;
+        }
+        /* Submit Button */
+        .submit-container {
+            text-align: center;
+            padding: 20px;
+        }
+        .submit-button {
+            background-color: darkblue;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .submit-button:hover {
+            background-color: navy;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <div class="header">
+        <img src="C:\Users\MANITEJA\OneDrive\Desktop\chinnu.jpeg" alt="Picture" class="round-img">
+        <h1>About Languages</h1>
+        <img src="C:\Users\MANITEJA\OneDrive\Pictures\Screenshots\vignan logo.png" alt="Vignan Logo" class="round-img">
+    </div>
+
+    <!-- Programming Languages List -->
+    <ul type="square" class="language-list">
+        <li>Python <button>Learn</button></li>
+        <li>Java <button>Learn</button></li>
+        <li>C++ <button>Learn</button></li>
+        <li>JavaScript <button>Learn</button></li>
+        <li>HTML&CSS<button>Learn</button></li>
+    </ul>
+
+    <!-- Contact Details Section -->
+    <div class="contact">
+        <h2>Contact Details</h2>
+        <div class="contact-item">
+            <label>Name:</label>
+            <input type="text">
+        </div>
+        <div class="contact-item">
+            <label>Email:</label>
+            <input type="email">
+        </div>
+        <div class="contact-item">
+            <label>Contact No:</label>
+            <input type="text">
+        </div>
+        <h3>Feedback</h3>
+        <textarea placeholder="Enter your feedback"></textarea>
+    </div>
+
+</body>
+</html>

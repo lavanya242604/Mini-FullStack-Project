@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML and CSS</title>
+    <style>
+        body {
+            padding: 30px;
+            background-color: white;
+            font-size: 20px;
+        }
+        h1 {
+            color: darkgreen;
+            text-align: center;
+        }
+        p, li {
+            font-size: 20px;
+            font-family: serif, sans-serif;
+        }
+        a {
+            color: darkblue;
+            text-decoration: none;
+            font-family: serif, sans-serif;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .buttons-container {
+            margin-top: 40px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .nav-button {
+            padding: 10px 20px;
+            background-color: darkblue;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .nav-button:hover {
+            background-color: navy;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>HTML & CSS: The Backbone of the Web</h1>
+
+    <p>HTML (HyperText Markup Language) is the standard language used to create and structure content on the web. CSS (Cascading Style Sheets) is used to control the presentation, formatting, and layout of HTML elements. Together, they form the foundation of web development.</p>
+
+    <h3>History of HTML & CSS:</h3>
+    <p>HTML was developed by Tim Berners-Lee in 1991 to help share scientific documents online. Since then, it has evolved through several versions, with HTML5 being the latest. CSS was introduced in 1996 by the W3C to separate content from design, allowing for cleaner and more manageable code.</p>
+
+    <h3>Applications of HTML & CSS:</h3>
+    <ul>
+        <li><b>Web Pages:</b> The most basic use is creating and styling websites.</li>
+        <li><b>Email Templates:</b> Used in designing visually appealing email layouts.</li>
+        <li><b>Web Applications:</b> Front-end interfaces are built using HTML and CSS.</li>
+        <li><b>Online Forms:</b> Collecting user data via styled form elements.</li>
+        <li><b>Digital Resumes & Portfolios:</b> Personal branding in a web-friendly format.</li>
+        <li><b>Prototyping:</b> Designers use HTML/CSS to build static prototypes.</li>
+    </ul>
+
+    <h3>Common HTML & CSS Tags:</h3>
+    <ul>
+        <li><b>&lt;h1&gt; to &lt;h6&gt;:</b> Heading tags used for titles and subtitles.</li>
+        <li><b>&lt;p&gt;:</b> Paragraph tag used to define blocks of text.</li>
+        <li><b>&lt;a&gt;:</b> Anchor tag used to create hyperlinks.</li>
+        <li><b>&lt;img&gt;:</b> Used to embed images in a web page.</li>
+        <li><b>&lt;div&gt;:</b> Container tag used to group content for styling with CSS.</li>
+        <li><b>class & id:</b> HTML attributes used with CSS for styling specific elements.</li>
+        <li><b>color, margin, padding:</b> CSS properties used to style content.</li>
+        <li><b>display:</b> Defines the layout behavior (block, inline, flex, etc.).</li>
+    </ul>
+
+    <h3>Examples:</h3>
+
+    <p><b>a) HTML Basic Page Structure:</b><br>
+    &lt;!DOCTYPE html&gt;<br>
+    &lt;html&gt;<br>
+    &nbsp;&nbsp;&lt;head&gt;<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;My First Page&lt;/title&gt;<br>
+    &nbsp;&nbsp;&lt;/head&gt;<br>
+    &nbsp;&nbsp;&lt;body&gt;<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&lt;h1&gt;Welcome!&lt;/h1&gt;<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;This is my first webpage.&lt;/p&gt;<br>
+    &nbsp;&nbsp;&lt;/body&gt;<br>
+    &lt;/html&gt;
+    </p>
+
+    <p><b>b) CSS Styling Example:</b><br>
+    &lt;style&gt;<br>
+    body {<br>
+    &nbsp;&nbsp;background-color: lightgray;<br>
+    &nbsp;&nbsp;font-family: Arial;<br>
+    }<br>
+    h1 {<br>
+    &nbsp;&nbsp;color: blue;<br>
+    }<br>
+    &lt;/style&gt;
+    </p>
+
+    <h3>Useful Resources:</h3>
+    <ul>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">MDN Web Docs – HTML</a></li>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">MDN Web Docs – CSS</a></li>
+        <li><a href="https://www.w3schools.com/html/" target="_blank">W3Schools – HTML Tutorial</a></li>
+        <li><a href="https://www.w3schools.com/css/" target="_blank">W3Schools – CSS Tutorial</a></li>
+        <li><a href="https://css-tricks.com/" target="_blank">CSS-Tricks – Tips and Techniques</a></li>
+    </ul>
+
+    <div class="buttons-container">
+        <a class="nav-button" href="home.html">← Home</a>
+        <a class="nav-button" href="html&cssQuiz.html">Take the Quiz →</a>
+    </div>
+
+</body>
+</html>
